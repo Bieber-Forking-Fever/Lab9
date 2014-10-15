@@ -12,5 +12,9 @@
 # Accept user input 
 # Calculate fahrenheit
 # Output answer
-
-print 
+print "Insert Celcius to get Fahrenheit "
+Userinput= int(raw_input())
+Fahrenheit = Userinput * 9
+Fahrenheit1 = Fahrenheit / 5
+Fahrenheit2 = Fahrenheit1 + 32
+print Fahrenheit2   
